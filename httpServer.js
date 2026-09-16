@@ -1,3 +1,7 @@
+// PS C:\Users\anuju\OneDrive\Desktop\NodeJS_Backend> node "c:\Users\anuju\
+// OneDrive\Desktop\NodeJS_Backend\httpServer.js" Server running on port 3000
+
+
 const http = require("http");
 
 const server = http.createServer((req, res) => {
@@ -11,8 +15,8 @@ const server = http.createServer((req, res) => {
   res.end(JSON.stringify(data));
 });
 
-server.listen(4000, () => {
-  console.log("Server running on port 4000");
+server.listen(3000, () => {
+  console.log("Server running on port 3000");
 });
 // http://localhost:PORT
 // this is structure of link 
