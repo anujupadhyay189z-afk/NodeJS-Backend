@@ -1,3 +1,7 @@
+// Using Node.js’s built-in events module, create an EventEmitter. Register multiple 
+// listeners for a response event, then emit the event by passing name
+//  and id as arguments and display them in the console
+
 const EventEmitter = require("events");
 
 const event = new EventEmitter();
